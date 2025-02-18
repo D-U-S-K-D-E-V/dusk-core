@@ -1,19 +1,21 @@
 {
+    "version": "0.2.0",
     "configurations": [
         {
             "name": "Docker: Python - General",
-            "type": "docker",
+            "type": "python",
             "request": "launch",
             "preLaunchTask": "docker-run: debug",
-            "python": {
-                "pathMappings": [
-                    {
-                        "localRoot": "${workspaceFolder}",
-                        "remoteRoot": "/app"
-                    }
-                ],
-                "projectType": "general"
-            }
+            "program": "${workspaceFolder}/tests/__init__.py", // Specify the entry point for your tests
+            "args": ["-m", "unittest", "discover", "-s", "tests"],
+            "justMyCode": true,
+            "pathMappings": [
+                {
+                    "localRoot": "${workspaceFolder}",
+                    "remoteRoot": "/app"
+                }
+            ],
+            "console": "integratedTerminal"
         }
     ]
 }
