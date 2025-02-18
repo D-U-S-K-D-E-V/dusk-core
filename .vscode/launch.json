@@ -3,7 +3,7 @@
     "configurations": [
         {
             "name": "Docker: Python - General",
-            "type": "python",
+            "type": "debugpy",
             "request": "launch",
             "preLaunchTask": "docker-run: debug",
             "program": "${workspaceFolder}/tests/__init__.py", // Specify the entry point for your tests
@@ -15,7 +15,7 @@
                     "remoteRoot": "/app"
                 }
             ],
-            "console": "integratedTerminal"
+            "console": "integratedTerminal",
         }
     ]
 }
