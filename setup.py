@@ -16,7 +16,7 @@ setup(
     description="This is a core library used by all Dusk microservices to function and distribute updates quickly.",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
-    url="https://github.com/D-U-S-K-D-E-V/dusk-core",
+    url="https://github.com/D-U-S-K-D-E-V/duskcore",
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
