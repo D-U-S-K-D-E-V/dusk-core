@@ -1,5 +1,4 @@
 # Dusk Core
-
 This library is meant to be the central location for all the libraries used to build and interact with the Confluence structure. 
 
 ## Services
@@ -13,4 +12,3 @@ Middleware is the section in which middleware for all apps is written. It is mea
 
 ## Security
 This section handles cryptography and other important security features imbedded in APIs running within a microservice architecture.
-
