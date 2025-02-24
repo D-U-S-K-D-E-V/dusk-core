@@ -1,5 +1,5 @@
-from src.enums.key_type import KeyTypeEnum
-from src.errors.encryption import InvalidKeyError
+from src.duskcore.enums.key_type import KeyTypeEnum
+from src.duskcore.errors.encryption import InvalidKeyError
 from typing import Union
 import ctypes
 

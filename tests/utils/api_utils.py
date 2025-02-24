@@ -1,6 +1,6 @@
-from src.services.api import API
-from src.models.http_request import HTTPRequestModel
-from src.enums.http_status import HTTPStatusEnum
+from src.duskcore.services.api import API
+from src.duskcore.models.http_request import HTTPRequestModel
+from src.duskcore.enums.http_status import HTTPStatusEnum
 from fastapi import Request
 from starlette.responses import JSONResponse
 import secrets

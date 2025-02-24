@@ -1,7 +1,7 @@
 import threading
-from src.models.keychain import KeyChainModel
-from src.models.encrypted_payload import EncryptedPayloadModel
-from src.errors.encryption import InvalidEncryptionKeyError
+from src.duskcore.models.keychain import KeyChainModel
+from src.duskcore.models.encrypted_payload import EncryptedPayloadModel
+from src.duskcore.errors.encryption import InvalidEncryptionKeyError
 import ctypes
 from Crypto.Cipher import AES
 from Crypto.Protocol.KDF import PBKDF2
