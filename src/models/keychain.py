@@ -1,4 +1,4 @@
-from src.security.key import Key
+from ..security.key import Key
 from dataclasses import dataclass
 
 @dataclass
