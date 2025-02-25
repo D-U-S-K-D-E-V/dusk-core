@@ -1,4 +1,4 @@
-from src.duskcore.security.key import Key
+from src.security.key import Key
 from dataclasses import dataclass
 
 @dataclass
