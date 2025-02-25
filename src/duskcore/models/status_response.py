@@ -1,4 +1,4 @@
 from pydantic import BaseModel
 
-class StatusResponse(BaseModel):
+class StatusResponseModel(BaseModel):
     message: str
