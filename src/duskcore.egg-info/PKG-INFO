@@ -1,6 +1,6 @@
 Metadata-Version: 2.2
 Name: duskcore
-Version: 0.1.1
+Version: 0.1.2
 Summary: This is a core library used by all Dusk microservices to function and distribute updates quickly.
 Home-page: https://github.com/D-U-S-K-D-E-V/duskcore
 Author: Ryan Clark
