@@ -1,5 +1,5 @@
-from src.security.key_store import KeyStore
-from src.models.keychain import KeyChainModel
+from src.duskcore.security.key_store import KeyStore
+from src.duskcore.models.keychain import KeyChainModel
 from Crypto.Random import get_random_bytes
 
 def test_keyDecryptsData():
