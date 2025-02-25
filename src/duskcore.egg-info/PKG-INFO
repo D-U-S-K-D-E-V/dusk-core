@@ -1,0 +1,40 @@
+Metadata-Version: 2.2
+Name: duskcore
+Version: 0.1.1
+Summary: This is a core library used by all Dusk microservices to function and distribute updates quickly.
+Home-page: https://github.com/D-U-S-K-D-E-V/duskcore
+Author: Ryan Clark
+Author-email: accounts@dusk-inc.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+Requires-Dist: pycryptodome
+Requires-Dist: fastapi
+Requires-Dist: pycryptodome
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# Dusk Core
+This library is meant to be the central location for all the libraries used to build and interact with the Confluence structure. 
+
+## Services
+This is where all the basic logic that is used for all microservices is written. 
+
+### Routes
+These the are the default routes that all APIs need in order to function. They handle situations such as managing key rotation.
+
+### Middleware
+Middleware is the section in which middleware for all apps is written. It is meant to be used in conjunction with FastAPI, Dusk's API framework of choice.
+
+## Security
+This section handles cryptography and other important security features imbedded in APIs running within a microservice architecture.

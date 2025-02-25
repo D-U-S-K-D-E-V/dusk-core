@@ -4,7 +4,7 @@ setup(
     name="duskcore",
     version="0.1.1",
     packages=find_packages(where='src', exclude=['tests*']),
-    package_dir={"duskcore": "src"},
+    package_dir={"": "src"},
     install_requires=[
         "requests",
         "pycryptodome",
